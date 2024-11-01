@@ -1,0 +1,374 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Simple COD Fee for WooCommerce\n"
+"POT-Creation-Date: 2023-06-11 03:28+0300\n"
+"PO-Revision-Date: 2023-06-11 03:28+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.3.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: simple-cod-fee-for-woocommerce.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: build/includes/admin-menu.php:5 build/includes/admin-menu.php:6
+#: includes/admin-menu.php:5 includes/admin-menu.php:6
+msgid "COD Settings"
+msgstr "Ρυθμίσεις αντικαταβολής"
+
+#: build/includes/admin-menu.php:20 includes/admin-menu.php:20
+msgid ""
+"Cash On Delivery is not enabled. Please enable it from WooCommerce settings "
+"and come back for advanced settings."
+msgstr ""
+"Η αντικαταβολή δεν είναι ενεργοποιημένη. Παρακαλούμε ενεργοποιήστε τη στις "
+"ρυθμίσεις του WooCommerce και επιστρέψτε για τις ρυθμίσεις."
+
+#: build/includes/admin-menu.php:68 includes/admin-menu.php:68
+msgid "Enabled COD Fee?"
+msgstr "Ενεργοποίηση έξτρα κόστους αντικαταβολής;"
+
+#: build/includes/admin-menu.php:79 includes/admin-menu.php:79
+msgid "Show COD fee on cart page?"
+msgstr "Προβολή κόστους αντικαταβολής στο καλάθι;"
+
+#: build/includes/admin-menu.php:87 includes/admin-menu.php:87
+msgid ""
+"Enable this option if you want to display COD Fee in cart page, disable to "
+"hide it"
+msgstr ""
+"Ενεργοποιήστε την επιλογή αν θέλετε το κόστος αντικαταβολής να εμφανίζεται "
+"και στη σελίδα του καλαθιού. Απενεργοποιήστε το για να εμφανίζεται μόνο κατα "
+"τη διαδικασία “Ολοκλήρωσης πληρωμής”"
+
+#: build/includes/admin-menu.php:97 includes/admin-menu.php:97
+msgid "Completely disable <em>COD</em> depending on cart total?"
+msgstr ""
+"Απενεργοποιήστε εντελώς την <em>αντικαταβολή</em> ανάλογα με το σύνολο του "
+"καλαθιού"
+
+#: build/includes/admin-menu.php:105 includes/admin-menu.php:105
+msgid ""
+"Completely remove COD as payment method if cart total is less/more than a "
+"specific amount"
+msgstr ""
+"Απενεργοποιήστε εντελώς την αντικαταβολή ως μέθοδο πληρωμής εάν το σύνολο "
+"του καλαθιού είναι μικρότερο/μεγαλύτερο από ένα συγκεκριμένο ποσό"
+
+#: build/includes/admin-menu.php:111 build/includes/admin-menu.php:142
+#: includes/admin-menu.php:111 includes/admin-menu.php:142
+msgid "Less than"
+msgstr "Μικρότερο από"
+
+#: build/includes/admin-menu.php:114 build/includes/admin-menu.php:145
+#: includes/admin-menu.php:114 includes/admin-menu.php:145
+msgid "or"
+msgstr "ή"
+
+#: build/includes/admin-menu.php:116 build/includes/admin-menu.php:147
+#: includes/admin-menu.php:116 includes/admin-menu.php:147
+msgid "Greater than"
+msgstr "Μεγαλύτερο από"
+
+#: build/includes/admin-menu.php:128 includes/admin-menu.php:128
+msgid "Disable <em>COD Fee</em> depending on cart total?"
+msgstr ""
+"Απενεργοποιήστε τη <em>χρέωση αντικαταβολής</em> ανάλογα με το σύνολο του "
+"καλαθιού;"
+
+#: build/includes/admin-menu.php:136 includes/admin-menu.php:136
+msgid "Disable COD Fee if cart total is less/more than a specific amount"
+msgstr ""
+"Απενεργοποιήσετε τη χρέωση αντικαταβολής εάν το σύνολο του καλαθιού είναι "
+"μικρότερο/μεγαλύτερο από ένα συγκεκριμένο ποσό"
+
+#: build/includes/admin-menu.php:159 includes/admin-menu.php:159
+msgid "Add percentage of cart's subtotal as COD Fee"
+msgstr ""
+"Προσθέστε σαν κόστος αντικαταβολής ένα ποσοστό από το σύνολο παραγγελίας του "
+"χρήστη"
+
+#: build/includes/admin-menu.php:167 includes/admin-menu.php:167
+msgid ""
+"Add percentage of user's cart subtotal to the extra COD fee. You can use it "
+"by it's own or in addition with a fixed fee"
+msgstr ""
+"Προσθέστε στο κόστος αντικαταβολής ένα ποσοστό από το σύνολο παραγγελίας του "
+"χρήστη. Μπορείτε να το χρησιμοποιήσετε μόνο του ή σε συνδυασμό με ένα "
+"προκαθορισμένο ποσό"
+
+#: build/includes/admin-menu.php:176 includes/admin-menu.php:176
+msgid "Different fees per shipping method?"
+msgstr "Διαφορετικά κόστη ανά μέθοδο αποστολής;"
+
+#: build/includes/admin-menu.php:184 includes/admin-menu.php:184
+msgid ""
+"Enable this option if you want different COD fees for each shipping methods"
+msgstr ""
+"Ενεργοποιήστε αυτή την επιλογή αν θέλετε να ορίσετε διαφορετικά κόστη "
+"αντικαταβολής ανάλογα με τη μέθοδο αποστολής"
+
+#: build/includes/admin-menu.php:192 includes/admin-menu.php:192
+msgid "Fees per shipping method"
+msgstr "Διαφορετικά κόστη ανά μέθοδο αποστολής"
+
+#: build/includes/admin-menu.php:231 build/includes/admin-menu.php:234
+#: build/includes/admin-menu.php:324 build/includes/admin-menu.php:326
+#: includes/admin-menu.php:231 includes/admin-menu.php:234
+#: includes/admin-menu.php:324 includes/admin-menu.php:326
+msgid "PERCENT"
+msgstr "ΠΟΣΟΣΤΟ"
+
+#: build/includes/admin-menu.php:236 build/includes/admin-menu.php:328
+#: includes/admin-menu.php:236 includes/admin-menu.php:328
+msgid ""
+"If you want the fee to have an additional percentage of the users' cart, "
+"enter the percentage here without the symbol %"
+msgstr ""
+"Εάν θέλετε να προστεθεί στο κόστος αντικαταβολής ένα ποσοστό από την "
+"παραγγελία του χρήστη εισάγετε εδώ το ποσοστό χωρίς το σύμβολο %"
+
+#: build/includes/admin-menu.php:266 includes/admin-menu.php:266
+msgid "Use exchange rates?"
+msgstr "Θέλετε να χρησιμοποιήσετε τις ήδη αποθηκευμένες ισοτιμίες νομισμάτων;"
+
+#: build/includes/admin-menu.php:267 includes/admin-menu.php:267
+msgid "You are seeing this options because you are using WPML Multicurrency"
+msgstr ""
+"Βλέπετε αυτή την επιλογή επειδή έχετε εγκατεστημένο το WPML Multicurrency"
+
+#: build/includes/admin-menu.php:275 includes/admin-menu.php:275
+msgid ""
+"By enabling this option you only set the extra fee cost for the main "
+"currency then all the others are calculated automatically using your saved "
+"exchange rates"
+msgstr ""
+"Ενεργοποιώντας αυτή την επιλογή θα εισάγετε το κόστος αντικαταβολής μόνο στο "
+"κεντρικό σας νόμισμα και όλα τα υπόλοιπα θα υπολογίζονται κατά τη διάρκεια "
+"της ολοκλήρωσης παραγγελίας σύμφωνα με τις αποθηκευμένες ισοτιμίες"
+
+#: build/includes/admin-menu.php:285 includes/admin-menu.php:285
+msgid "Fee Cost"
+msgstr "Κόστος"
+
+#: build/includes/admin-menu.php:314 includes/admin-menu.php:314
+msgid "The extra amount the user must pay if he uses COD as payment method"
+msgstr ""
+"Το έξτρα κόστος που θα πληρώσει ο χρήστης αν επιλέξει για μέθοδο πληρωμής "
+"την αντικαταβολή"
+
+#: build/includes/admin-menu.php:337 includes/admin-menu.php:337
+msgid "Fee title"
+msgstr "Τίτλος έξτρα χρέωσης"
+
+#: build/includes/admin-menu.php:341 includes/admin-menu.php:341
+msgid "eg. Extra COD Fee"
+msgstr "πχ Επιπλέον χρέωση αντικαταβολής"
+
+#: build/includes/admin-menu.php:342 includes/admin-menu.php:342
+msgid "The label for the extra cost, the user will see during checkout"
+msgstr "Ο τίτλος που θα βλέπει ο χρήστης σαν έξτρα κόστος"
+
+#: build/includes/admin-menu.php:350 includes/admin-menu.php:350
+msgid "Is COD fee taxable?"
+msgstr "Φορολογείται το τέλος αντικαταβολής;"
+
+#: build/includes/admin-menu.php:358 includes/admin-menu.php:358
+msgid "Enable this option if you want the fee to be taxable"
+msgstr ""
+"Ενεργοποιήστε αυτήν την επιλογή εάν θέλετε η έξτρα χρέωση αντικαταβολής να "
+"φορολογείται"
+
+#: build/includes/admin-menu.php:368 includes/admin-menu.php:368
+msgid "Select tax"
+msgstr "Επιλέξτε φόρο"
+
+#: build/includes/admin-menu.php:383 includes/admin-menu.php:383
+msgid "Save"
+msgstr "Αποθήκευση"
+
+#: build/includes/admin-menu.php:384 includes/admin-menu.php:384
+msgid "COD Settings have been saved"
+msgstr "Οι ρυθμίσεις αντικαταβολής έχουν αποθηκευτεί"
+
+#: build/simple-cod-fee-for-woocommerce.php:36
+#: simple-cod-fee-for-woocommerce.php:36
+msgid "Search"
+msgstr "Αναζήτηση"
+
+#: build/simple-cod-fee-for-woocommerce.php:37
+#: simple-cod-fee-for-woocommerce.php:37
+msgid "Go to Simple Cash On Delivery Settings"
+msgstr "Πηγαίνετε στις ρυθμίσεις αντικαταβολής"
+
+#: build/simple-cod-fee-for-woocommerce.php:78
+#: simple-cod-fee-for-woocommerce.php:78
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+#: build/simple-cod-fee-for-woocommerce.php:79
+#: simple-cod-fee-for-woocommerce.php:79
+msgid "Buy me a coffee"
+msgstr "Κέρνα ένα καφέ"
+
+#: build/simple-cod-fee-for-woocommerce.php:133
+#: simple-cod-fee-for-woocommerce.php:133
+msgid "COD Fee"
+msgstr "Κόστος αντικαταβολής"
+
+#: build/simple-cod-fee-for-woocommerce.php:448
+#: simple-cod-fee-for-woocommerce.php:448
+msgid ""
+"If you are updating from version 1.xx to 2.xx please visit the new settings "
+"area, after plugin update, and save your new settings"
+msgstr ""
+"Εάν αναβαθμίζετε από την έκδοση 1.xx σε έκδοση 2.xx παρακαλούμε επισκεφτείτε "
+"τη νέα σελίδα ρυθμίσεων αμέσως μετά την αναβάθμιση, και αποθηκεύστε τις νέες "
+"ρυθμίσεις."
+
+#. translators: %s: Name of a city
+#: build/simple-cod-fee-for-woocommerce.php:463
+#: simple-cod-fee-for-woocommerce.php:463
+#, php-format
+msgid ""
+"Congratulations, you updated <strong>Simple COD Fee for WooCommerce</strong> "
+"to version 2.0! The plugin will try to copy previous settiings but to ensure "
+"that everything is working visit the <a href=%1$s>new settings here</a>"
+msgstr ""
+"Συγχαρητήρια, αναβαθμίσατε το plugin <strong>Simple COD Fee for WooCommerce</"
+"strong> στην έκδοση 2.0! Θα γίνει προσπάθεια ανάκτησης όλων των προηγούμενων "
+"ρυθμίσεων, αλλά για να σιγουρευτείτε οτι όλα θα πάνε τέλεια επισκεφτείτε τη "
+"<a href=%s>νέα σελίδα ρυθμίσεων εδώ</a>"
+
+#. Plugin Name of the plugin/theme
+msgid "Simple COD Fee for WooCommerce"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Simply add extra fee for WooCommerce Cash On Delivery payment method"
+msgstr "Προσθέστε ένα έξτρα κόστος για την αντικαταβολή"
+
+#. Author of the plugin/theme
+msgid "Andreas Sofantzis"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://83pixel.com"
+msgstr ""
+
+#~ msgid "Completely disable <strong>COD</strong> depending on cart total?"
+#~ msgstr ""
+#~ "Απενεργοποιήστε εντελώς την <strong>αντικαταβολή</strong> ανάλογα με το "
+#~ "σύνολο του καλαθιού;"
+
+#~ msgid "Disable COD if cart subtotal is"
+#~ msgstr "Απενεργοποιήστε την αντικαταβολή εάν το σύνολο του καλαθιού είναι"
+
+#~ msgid "Disable COD Fee if cart subtotal is"
+#~ msgstr ""
+#~ "Απενεργοποιήστε τη χρέωση αντικαταβολής εάν το σύνολο του καλαθιού είναι"
+
+#~ msgid "Shipping method"
+#~ msgstr "Μέθοδος αποστολής"
+
+#~ msgid "Cash on delivery"
+#~ msgstr "Αντικαταβολή"
+
+#~ msgid "Have your customers pay with cash (or by other means) upon delivery."
+#~ msgstr ""
+#~ "Ζητήστε από τους πελάτες σας να πληρώσουν με μετρητά (ή με άλλα μέσα) "
+#~ "κατά την παράδοση."
+
+#~ msgid "Extra COD fee"
+#~ msgstr "Επιπλέον χρέωση αντικαταβολής"
+
+#~ msgid "eg. 2.3"
+#~ msgstr "Π.χ. 2.3"
+
+#~ msgid "Extra COD fee Tax Status"
+#~ msgstr "Κόστος αντικαταβολής"
+
+#~ msgid "Select Tax"
+#~ msgstr "Επιλέξτε φόρο"
+
+#~ msgid "Enable/Disable"
+#~ msgstr "Ενεργοποίηση/Απενεργοποίηση"
+
+#~ msgid "Enable cash on delivery"
+#~ msgstr "Ενεργοποίηση Αντικαταβολής"
+
+#~ msgid "Title"
+#~ msgstr "Τίτλος"
+
+#~ msgid ""
+#~ "Payment method description that the customer will see on your checkout."
+#~ msgstr ""
+#~ "Η περιγραφή της μεθόδου πληρωμής που θα βλέπει ο πελάτης κατά την "
+#~ "ολοκλήρωση της παραγγελίας."
+
+#~ msgid "Description"
+#~ msgstr "Περιγραφή"
+
+#~ msgid ""
+#~ "Payment method description that the customer will see on your website."
+#~ msgstr ""
+#~ "Η περιγραφή της μεθόδου πληρωμής που ο πελάτης θα δει στον ιστότοπό σας."
+
+#~ msgid "Pay with cash upon delivery."
+#~ msgstr "Πληρωμή με μετρητά κατά την παράδοση."
+
+#~ msgid "Instructions"
+#~ msgstr "Οδηγίες"
+
+#~ msgid "Instructions that will be added to the thank you page."
+#~ msgstr "Οδηγίες που θα προστεθούν στη σελίδα των ευχαριστηρίων."
+
+#~ msgid "Enable for shipping methods"
+#~ msgstr "Ενεργοποίηση για τις μεθόδους αποστολής"
+
+#~ msgid ""
+#~ "If COD is only available for certain methods, set it up here. Leave blank "
+#~ "to enable for all methods."
+#~ msgstr ""
+#~ "Αν η Αντικαταβολή είναι διαθέσιμη για συγκεκριμένες μεθόδους, ορίστε το "
+#~ "εδώ. Αφήστε κενό για να την ενεργοποιήσετε για όλες τις μεθόδους."
+
+#~ msgid "Select shipping methods"
+#~ msgstr "Επιλέξτε μεθόδους αποστολής"
+
+#~ msgid "Accept for virtual orders"
+#~ msgstr "Αποδοχή για εικονικές παραγγελίες"
+
+#~ msgid "Accept COD if the order is virtual"
+#~ msgstr "Να δέχεστε την Αντικαταβολή αν η παραγγελία είναι εικονική"
+
+#~ msgid "The label the user will see as extra fee"
+#~ msgstr "Η ετικέτα που ο χρήστης θα δει ως επιπλέον χρέωση"
+
+#~ msgid "eg. Extra COD fee"
+#~ msgstr "Π.χ. Επιπλέον χρέωση αντικαταβολής"
+
+#, php-format
+#~ msgid "Any &quot;%1$s&quot; method"
+#~ msgstr "Οποιαδήποτε &quot;%1$s&quot; μέθοδος"
+
+#~ msgid "Fee"
+#~ msgstr "Χρεώση"
+
+#~ msgid ""
+#~ "Please add the cash on delivery cost for this shipping method, if left "
+#~ "empty the default fee set in payment gateway will apply"
+#~ msgstr ""
+#~ "Προσθέστε το κόστος αντικαταβολής για αυτήν τη μέθοδο αποστολής, εάν "
+#~ "παραμείνει κενό θα ισχύει η προεπιλεγμένη χρέωση που έχει οριστεί στην "
+#~ "πύλη πληρωμής"
